@@ -22,22 +22,6 @@ body {
     background-color: #F5DEB3;
     margin-bottom: 60px;
 }
-/*index campanha*/
-.img-camp {
-    width: 19vw;
-    height: 30vh;
-    border-radius: 5px;
-}
-
-.campanha {
-    text-align: center;
-}
-
-.sobre {
-    padding: 0;
-    margin: 0;
-    margin-bottom: 2%;
-}
 /*index sobre*/
 .img-sobre {
     margin-left: 10%;
@@ -52,6 +36,11 @@ body {
     margin-right: 5%;
     margin-top: 3%;
     text-align: justify;
+}
+.sobre {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2%;
 }
 
 /* Menu */
@@ -78,7 +67,7 @@ body {
         content: '';
         position: absolute;
         left: 0;
-        bottom: -6px;
+        bottom: 5px;
         width: 100%;
         height: 3px;
         background: #fff;
@@ -92,7 +81,10 @@ body {
         transform-origin: left;
         transform: scaleX(1);
     }
-
+/*link campanha/adoção*/
+a{
+    text-align:center;
+}
 .link {
     text-decoration: none;
     color: rgb(9, 93, 119);
@@ -108,8 +100,45 @@ body {
         font-size: larger;
     }
 
+/*index campanha*/
+.img-camp {
+    width: 19vw;
+    height: 30vh;
+    border-radius: 5px;
+}
+
 .campanha {
+    text-align: center;
     background: #DEB887;
     margin-top: 1%;
     border-radius: 5px;
+}
+
+/*index adoção*/
+
+.adocao {
+    margin-top: 1%;
+    background: #DEB887;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.p-ado {
+    font-size: medium;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 170px;
+}
+
+.img-ado {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom:10px;
+    float: left;
+    border-radius: 5%;
+}
+
+.ado {
+    border-radius: 5px;
+    border: 1px solid black;
 }
