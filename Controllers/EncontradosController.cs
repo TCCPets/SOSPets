@@ -4,7 +4,7 @@ namespace SOSPets.Controllers
 {
     public class EncontradosController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Encontrados()
         {
             return View();
         }

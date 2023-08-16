@@ -120,25 +120,23 @@ a{
     margin-top: 1%;
     background: #DEB887;
     border-radius: 5px;
-    text-align: center;
+    text-align: justify;
 }
 
-.p-ado {
-    font-size: medium;
-    text-align: justify;
-    margin-top: 10px;
-    margin-left: 170px;
-}
+
 
 .img-ado {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom:10px;
-    float: left;
-    border-radius: 5%;
+    border-radius: 4px;
+    float: right;
+    margin: 3% 3% 0% 1%;
 }
-
 .ado {
+    border: 2px solid white;
     border-radius: 5px;
-    border: 1px solid black;
+}
+.pri {
+    margin-left: 15px;
+}
+.ult {
+    margin-right: 15px;
 }

@@ -4,7 +4,7 @@ namespace SOSPets.Controllers
 {
     public class DesaparecidosController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Desaparecidos()
         {
             return View();
         }

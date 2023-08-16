@@ -4,7 +4,7 @@ namespace SOSPets.Controllers
 {
     public class ONGsController : Controller
     {
-        public IActionResult Index()
+        public IActionResult ONGs()
         {
             return View();
         }

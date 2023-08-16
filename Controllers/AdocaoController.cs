@@ -4,7 +4,7 @@ namespace SOSPets.Controllers
 {
     public class AdocaoController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Adocao()
         {
             return View();
         }
