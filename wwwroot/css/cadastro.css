@@ -54,6 +54,10 @@ h1 {
     position: relative;
     width: 22.2rem;
 }
+.cadastrar-container {
+    position: relative;
+    width: 22.2rem;
+}
 .form-container {
     border: 1px solid hsla(0, 0%, 65%, 0.158);
     box-shadow: 0 0 36px 1px rgba(0, 0, 0, 0.2);
@@ -220,4 +224,3 @@ h1 {
         -o-transform: scale(1);
     }
 }
-
